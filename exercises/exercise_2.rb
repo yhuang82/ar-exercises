@@ -13,4 +13,4 @@ puts "Original names: #{@store1.name}, #{@store2.name}"
 
 @store1.update(name: "wsl")
 
-puts "Updated names: #{@store1.reload.name}, #{@store2.name}"
+puts "Updated names: #{@store1.name}, #{@store2.name}"
